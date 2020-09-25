@@ -1,0 +1,102 @@
+.homeCategories {
+  &-allItems {
+    border: 1px solid white;
+    background-image: url(../../../../public/img/Rebel.png);
+    width: 30%;
+    height: 4em;
+    margin: 10px auto 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+    border: 1px solid;
+    line-height: 3em;
+    font-size: 2em;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &-toggler {
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 50px;
+    background-color: transparent;
+  }
+
+  &-questsItems {
+    border: 1px solid white;
+    background-image: url(../../../../public/img/dealers.png);
+    color: white;
+    width: 30%;
+    height: 4em;
+    margin: 10px auto 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+    border: 1px solid;
+    line-height: 3em;
+    font-size: 2em;
+  }
+
+  &-hideoutItems {
+    border: 1px solid white;
+    background-image: url(../../../../public/img/Banner_hideout.png);
+    width: 30%;
+    height: 4em;
+    margin: 10px auto 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+    border: 1px solid;
+    line-height: 3em;
+    font-size: 2em;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .menu {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    right: 0px;
+    transition: all 0.5s linear;
+    opacity: 1;
+    &--close {
+      height: 0px;
+      opacity: 0;
+      transition: all 0.5s linear;
+ 
+    }
+  }
+
+  .homeCategories-allItems {
+    border: 1px white solid;
+  }
+  .homeCategories-hideoutItems {
+    border: 1px white solid;
+  }
+  .homeCategories-allItems > a {
+    color: rgb(161, 149, 33);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+  }
+  .homeCategories-questsItems > a {
+    color: rgb(161, 149, 33);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+  }
+  .homeCategories-hideoutItems > a {
+    color: rgb(161, 149, 33);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+  }
+}
+img {
+  box-sizing: border-box;
+  max-width: 100%;
+}

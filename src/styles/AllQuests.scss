@@ -1,0 +1,66 @@
+.quests-list {
+  // border: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  justify-content: space-between;
+  display: none;
+}
+
+.quests-list-active {
+  // border: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  justify-content: space-between;
+}
+
+.quests-container-body {
+  width: 80%;
+  margin: auto;
+  min-height: 82.5vh;
+  max-height: auto;
+}
+
+.quest-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // margin: auto;
+  justify-content: space-evenly;
+}
+
+// .dealer-name {
+//   color: white;
+//   font-weight: bold;
+//   font-size: 2em;
+//   text-align: center;
+//   padding: 1em;
+//   background-color: #504632be;
+// }
+
+.dealers-bar {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.dealer-portrait {
+  cursor: pointer;
+  width: 50%;
+  margin: 10px;
+}
+
+.dealer-portrait-active {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px #fbf5c4;
+  width: 50%;
+  margin: 10px;
+}

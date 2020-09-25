@@ -1,0 +1,115 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 260px;
+  background-color: #303030;
+  color: white;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../assets/cardtexture.jpg");
+  border: solid 3px #292402;
+
+  &-infos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between !important;
+    padding: 0.5em;
+  }
+
+  &-category {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #cfa827;
+    font-size: 1em;
+  }
+
+  &-image {
+    width: auto;
+  }
+
+  &:active {
+    .count {
+      color: #d3ad33;
+    }
+  }
+  &-price {
+    padding-bottom: 5px;
+    &-infos {
+      color: #83ff00;
+      border: solid #a78d1c 1px;
+      &-sub {
+        color: #d3ad33;
+      }
+    }
+  }
+  
+}
+
+
+a {
+  font-size: 1, 3em;
+
+  &:link {
+    color: #b88700;
+  }
+  &:visited {
+    color: #886904;
+  }
+  &:hover {
+    color: #e6c761;
+  }
+}
+
+h3 {
+  font-size: 1em;
+}
+
+.countContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.count {
+  padding: 0.5em;
+  font-size: 2em;
+  &-no-allitems {
+    padding: 0.5em;
+    font-size: 2em;
+    &-slash {
+      padding: 0.5em;
+      padding-left: 0;
+      padding-right: 0;
+      font-size: 2em;
+    }
+  }
+}
+
+
+.count-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.increment-decrement-button {
+  width: 35px;
+  height: 35px;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px 1px rgb(59, 55, 43);
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 2em;
+  transition: transform 0.2s, background-color 0.2s;
+  background-color: #423b2c;
+  text-align: center;
+  cursor: pointer;
+  padding: 8px;
+}

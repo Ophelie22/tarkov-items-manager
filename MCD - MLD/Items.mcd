@@ -1,0 +1,14 @@
+DEALER: name
+APPARTIENT_Q, 0N ITEM, 0N QUEST : quantity
+ITEM: name, img_url, dealer
+APPARTIENT_H, 0N ITEM, 1N HIDEOUT_OBJECTIVE : quantity
+ 
+MET A DISPOSITION, 11 QUEST, 1N DEALER
+QUEST: name, xp, done
+STOCKE, 0N ITEM, 0N USER : quantity
+HIDEOUT_OBJECTIVE: name, level, done
+ 
+:
+MET_FAVORIS_Q,  0N USER, 0N QUEST: 
+USER: email, password
+MET_FAVORIS_H, 0N USER, 0N HIDEOUT_OBJECTIVE : 

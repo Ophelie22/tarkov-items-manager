@@ -1,0 +1,26 @@
+.quest {
+  display: flex;
+  flex-direction: column;
+  //align-items: center;
+  width: auto;
+  //background-color: #1A1A1A;
+  color: white;
+}
+
+// .quest-header {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+// }
+
+.header > h3 {
+  padding: 0, 3em;
+  left: 5px;
+}
+
+// .quest-items-container {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   margin: auto;
+// }

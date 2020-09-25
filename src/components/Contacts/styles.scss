@@ -1,0 +1,66 @@
+.contact-container {
+  min-height: 100vh;
+  max-height: auto;
+  width: 100%;
+
+  &-body {
+    width: 80%;
+    margin: auto;
+    min-height: 87vh;
+    max-height: auto;
+  }
+
+  &-body-title {
+    color: #a78d1c;
+    margin-bottom: 5em;
+  }
+
+  &-body-card {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+  }
+}
+
+.card {
+  width: 20%;
+  border: 1px, grey solid;
+  height: auto;
+}
+
+img {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.div-icon {
+  display: flex;
+  width: 20px;
+}
+
+.name {
+  color: #a78d1c;
+}
+
+.text {
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 3px;
+}
+
+.function {
+  height: 5vh;
+  color: white;
+}
+
+.icon {
+  width: 50px;
+  margin: 5px;
+}
+h1 {
+  text-align: center;
+}
+
+.socials-networks {
+  background-color: rgba(0, 0, 0, 0.45);
+}

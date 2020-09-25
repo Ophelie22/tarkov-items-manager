@@ -1,0 +1,33 @@
+.allitems-filter {
+  display: flex;
+  flex-direction: row;
+}
+
+.allitems-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.allitems {
+  width: 80%;
+  margin: auto;
+}
+
+.allitems-list {
+  border: solid 1px gray;
+  display : flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.searchbar{
+  width: 100%;
+  .input{
+    width: 100%;
+  }
+  margin-top: 1em;
+  margin-bottom: 1em;
+}

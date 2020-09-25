@@ -1,0 +1,67 @@
+.hideout-list {
+  border: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  justify-content: space-between;
+  display: none;
+}
+
+.hideout-list-active {
+  // border: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  justify-content: space-between;
+}
+
+.hideout-container {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+
+  &-body {
+    width: 80%;
+    min-height: 82.5vh;
+    max-height: auto;
+    margin: auto;
+  }
+}
+
+.hideout-name, .dealer-name {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  padding: 1em;
+  // background-image: url("https://thumbs.dreamstime.com/b/configuration-sans-joint-de-camouflage-camo-%C3%A0-la-mode-style-r%C3%A9p%C3%A9tition-illustration-vecteur-texture-kaki-chasse-militaire-vert-153790606.jpg");
+  opacity: 0.7;
+  text-shadow:1px 1px 2px black;
+}
+
+
+.hideout-bar {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.hideout-portrait {
+  cursor: pointer;
+  width: 50%;
+  margin: 10px;
+}
+
+.hideout-portrait-active {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px #fbf5c4;
+  width: 50%;
+  margin: 10px;
+}

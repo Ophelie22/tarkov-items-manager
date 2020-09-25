@@ -1,0 +1,78 @@
+.header {
+  width: auto;
+  height: 8vh;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  background-image: url("../../../public/img/header.PNG");
+  //border: 1px solid grey;
+
+  &-logo {
+    padding-top: 1%;
+    height: 100%;
+  }
+
+  &-title {
+    margin: 0px 30px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  &-title:hover {
+    margin: 0px 30px;
+    text-align: center;
+    vertical-align: middle;
+    color: #a19521;
+  }
+
+  &-menu {
+    width: 75%;
+    height: 8vh;
+    text-align: center;
+    display: flex;
+    // padding: 20px;
+  }
+
+  &-home_link {
+    color: white;
+    padding: 10px;
+  }
+
+  &-home_link:visited {
+    color: white;
+    text-decoration: none;
+  }
+  &-home_link:active {
+    color: white;
+    text-decoration: none;
+    color: #a19521;
+  }
+  &-home_link:hover {
+    color: white;
+    text-decoration: none;
+    color: #a19521;
+  }
+
+  &-span &-title {
+    font-size: 2em;
+    margin: 0px 30px;
+  }
+  &-logout {
+    margin: 0px 30px;
+  }
+  &-account {
+    margin: 0px 30px;
+  }
+  &-email {
+    margin: 0px 30px;
+  }
+}
+
+h1 {
+  color: white;
+}
+
+.container-header-logo {
+  padding-left: 10%;
+}
+
+

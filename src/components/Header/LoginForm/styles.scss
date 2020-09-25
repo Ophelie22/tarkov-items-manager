@@ -1,0 +1,106 @@
+.login {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 8vh;
+  color: #a19521;
+  align-items: center;
+  padding-right: 10%;
+
+  .isLogged {
+    width: auto;
+    height: 4vh;
+  }
+
+  &-welcome {
+    padding-right: 5%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  &-form {
+    color: #a19521;
+  }
+
+  &-link {
+    width: 120px;
+    color: #a19521;
+    text-decoration-line: none;
+  }
+
+  &-form-input {
+    padding-right: 0.6em;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+  }
+
+  &-create {
+    line-height: 30px;
+    margin-right: 1em;
+  }
+  &-create:hover {
+    line-height: 30px;
+    margin-right: 1em;
+    color: #a19521;
+  }
+
+  &-playerAccount {
+    text-decoration: underline;
+    margin-right: 10px;
+    margin-left: 5px;
+    color: white;
+
+    &-email {
+      text-shadow: 1px 1px black;
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    &-email:hover {
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+}
+
+.loading {
+  color: #fff;
+}
+.login-create {
+  text-decoration: none;
+  border: none;
+  color: white;
+}
+
+.errorMessage {
+  font-size: 1.5em;
+  color: #a19521;
+  margin-right: 0.5em;
+  // position: absolute;
+  // top: 60px;
+  // left: 1178px;
+  // width: 400px;
+}
+
+.login-form-input {
+  &-email,
+  &-password {
+    margin-right: 5px;
+    background-color: none !important;
+  }
+}
+
+input {
+  background-color: #1b2532 !important;
+  color: white !important;
+}
+
+.button {
+  background-color: #a78d1c !important;
+}

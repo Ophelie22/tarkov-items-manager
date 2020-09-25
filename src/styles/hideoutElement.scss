@@ -1,0 +1,52 @@
+.hideout-element {
+  display : flex;
+  flex-direction: column;
+  //align-items: center;
+  width: auto;
+  // background-color: #303030;
+  color: white;
+  // border: 1px solid rgb(97, 97, 97);
+}
+
+.hideout-header, .quest-header {
+  padding: 1em 1em 0 1em;
+  display: flex;
+  // flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  // background-color: black;
+  // background-image: url('../assets/stripe.png');
+  // background: linear-gradient( rgba(0,0,0,.25), #483E2C);
+  background-image: linear-gradient(135deg, rgba(45, 45, 45, 0.4), 25%, #292402 25%, #292402 50%, rgba(45, 45, 45, 0.4), 50%, rgba(45, 45, 45, 0.4), 75%, #292402 75%, #292402 100%);
+  background-size: 14.14px 14.14px;
+  width: auto;
+}
+
+.header > h3 {
+  padding: 0,3em;
+  left: 5px;
+}
+
+.hideout-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.hideout-infos {
+  width: auto !important;
+}
+
+.labelFollow {
+  text-align: right;
+  margin-right: 0.5em;
+}
+
+.labelFollow {
+  font-size: 1.5em;
+  color: grey;
+  text-shadow:1px 1px 2px black;
+}
+
