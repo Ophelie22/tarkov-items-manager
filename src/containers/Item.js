@@ -26,21 +26,6 @@ const Item = ({
   decrement,
   itemsNeeded,
   noCount,
-<<<<<<< HEAD
-}) => (
-  <div className="item">
-    <div className="item-infos">
-      <div className="item-image">
-        <img src={img} alt="" />
-      </div>
-      <h3 className="item-name">
-        {name}
-      </h3>
-      <h3 className="item-category">
-        {category}
-      </h3>
-      <a href={wiki_link} target="_blank" rel="noreferrer">Wiki Link</a>
-=======
   price,
   basePrice,
   avg24hPrice,
@@ -117,33 +102,9 @@ const Item = ({
           </div>
         </div>
       )}
->>>>>>> 962a8f81cdb57a9180d27696d7f742ce2a001de4
     </div>
-    {!noCount && (
-      <div className="count-bar">
-        <div
-          className="increment-decrement-button"
-          onClick={() => {
-            decrement(id, elementId);
-          }}
-        >
-          -
-        </div>
-        <div className="count">{count ? count : 0} </div>
-        <div className="count-no-allitems-slash">/</div>
-        <div className="count-no-allitems">{itemsNeeded}</div>
-        <div
-          className="increment-decrement-button"
-          onClick={() => {
-            increment(id, elementId);
-          }}
-        >
-          +
-        </div>
-      </div>
-    )}
-  </div>
-);
+  );
+}
 
 const mapStateToProps = null;
 
