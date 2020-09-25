@@ -35,7 +35,11 @@ export default (state = initialState, action = {}) => {
         },
         itemsCountQuestData: {
           ...state.itemsCountQuestData,
-          [action.elementId]: { [action.id]: ((parseInt(state.itemsCountQuest[action.id], 10) + 1) || 1) },
+          [action.elementId]: [{
+            ...state.itemsCountQuestData[action.elementId],
+            ID: action.id,
+            COUNT: ((parseInt(state.itemsCountQuest[action.id], 10) + 1) || 1),
+          }],
         },
       };
     case DECREMENT_COUNTER_QUEST:

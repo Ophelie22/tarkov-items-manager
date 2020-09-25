@@ -39,7 +39,7 @@ const Item = ({
   diff7days
 
 }) => {
-  const countToSend = count;
+  
   return (
     <div className="item">
       <div className="item-infos">
@@ -83,19 +83,19 @@ const Item = ({
           <div
             className="increment-decrement-button"
             onClick={() => {
-              decrement(id, elementId, countToSend);
+              decrement(id, elementId);
             }}
           >
             -
           </div>
-          {/* <div className="count">{count ? count : 0} </div> */}
-          <div className="count">{countToSend} </div>
+          <div className="count">{count ? count : 0} </div>
+          {/* <div className="count">{countToSend} </div> */}
           <div className="count-no-allitems-slash">/</div>
           <div className="count-no-allitems">{itemsNeeded}</div>
           <div
             className="increment-decrement-button"
             onClick={() => {
-              increment(id, elementId, countToSend);
+              increment(id, elementId);
             }}
           >
             +
